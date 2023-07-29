@@ -46,7 +46,8 @@ export interface IUser {
       },
       password: {
         type: String,
-        required: true
+        required: true,
+        select: false
       }
   });
   userSchema.static('findUserByCredentials', function findUserByCredentials(email: string, password: string) {
