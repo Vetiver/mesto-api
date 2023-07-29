@@ -1,13 +1,18 @@
-# npm
-node_modules
-package-lock.json
+# Logs
+logs
 *.log
-*.gz
+npm-debug.log*
 
-# Coveralls
-.nyc_output
-coverage
+# Dependency directory
+node_modules
 
-# Benchmarking
-benchmarks/graphs
+# Optional npm cache directory
+.npm
 
+# Optional REPL history
+.DS_Store
+.idea
+.vscode
+
+# Typescript build result
+dist 
